@@ -1,0 +1,90 @@
+import javax.swing.*;
+public class Drum
+{
+	public static void main(String args[])
+	{
+		JFrame frm = new JFrame("My First GUI");
+	//	Container con=();
+		
+		frm.setSize(523,750);
+		
+		JButton btn1 = new JButton("Drum Pad");
+		btn1.setBounds(1,1,504,80);
+		
+		JButton btn2 = new JButton("1");
+		btn2.setBounds(1,82,125,155);
+		
+		JButton btn3 = new JButton("2");
+		btn3.setBounds(127,82,125,155);
+		
+		JButton btn4 = new JButton("3");
+		btn4.setBounds(253,82,125,155);
+		
+		JButton btn5 = new JButton("4");
+		btn5.setBounds(380,82,125,155);
+		
+		JButton btn6 = new JButton("5");
+		btn6.setBounds(1,239,125,155);
+		
+		JButton btn7 = new JButton("6");
+		btn7.setBounds(127,239,125,155);
+		
+		JButton btn8 = new JButton("7");
+		btn8.setBounds(253,239,125,155);
+		
+		JButton btn9 = new JButton("8");
+		btn9.setBounds(380,239,125,155);
+		
+		JButton btn10 = new JButton("9");
+		btn10.setBounds(1,396,125,155);
+		
+		JButton btn11 = new JButton("10");
+		btn11.setBounds(127,396,125,155);
+		
+		JButton btn12 = new JButton("11");
+		btn12.setBounds(253,396,125,155);
+		
+		JButton btn13 = new JButton("12");
+		btn13.setBounds(380,396,125,155);
+		
+		JButton btn14 = new JButton("9");
+		btn14.setBounds(1,553,125,155);
+		
+		JButton btn15 = new JButton("10");
+		btn15.setBounds(127,553,125,155);
+		
+		JButton btn16 = new JButton("11");
+		btn16.setBounds(253,553,125,155);
+		
+		JButton btn17 = new JButton("12");
+		btn17.setBounds(380,553,125,155);
+		
+		
+		
+		frm.add(btn1);
+		frm.add(btn2);
+		frm.add(btn3);
+		frm.add(btn4);
+		frm.add(btn5);
+		frm.add(btn6);
+		frm.add(btn7);
+		frm.add(btn8);
+		frm.add(btn9);
+		frm.add(btn10);
+		frm.add(btn11);
+		frm.add(btn12);
+		frm.add(btn13);
+		frm.add(btn14);
+		frm.add(btn15);
+		frm.add(btn16);
+		frm.add(btn17);
+		
+		
+		frm.setLayout(null);
+		frm.setVisible(true);
+		frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		
+		
+	}
+}
